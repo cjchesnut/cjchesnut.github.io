@@ -2,10 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Christian Chesnut">
         <meta name="description" content="Christian Chesnut's personal webpage, page 2. This page is being constantly updated, so please check back for new updates!">
-        <link rel="stylesheet" href="styles.css">
+        <link href="css/styles.css" rel="stylesheet">
+
         <title>Christian Chesnut's Ongoing Projects</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+                }
+            }
+        </style>
     </head>
     <body>
         <nav>
@@ -19,12 +39,21 @@
         </header>
         <main>
             <p>Personal Website</p>
-                <ul><li>My goal for this website is to make it as interesting as a static website can be, while building good foundations in HTML, CSS, and JavaScript.</li></ul>
+                <ul>
+                    <li>I want to make my website as interesting as a static website can be, while building good foundations in HTML, CSS, and JavaScript.</li>
+                    <li>This website currently uses <a href="https://getbootstrap.com/">Bootstrap</a> as its CSS Framework.</li>
+                </ul>
             <p>Gudako Bot</p>
-                <ul><li>Gudako Bot is a discord bot that allows for simulating gacha pulls in Discord text chat. It's currently on hold.</li></ul>
+                <img src="images/gudakobot.PNG" alt="Gudako Bot in my personal discord server." style="display: block; margin-left: 20px; border-radius: 5px;">
+                <ul>
+                    <li>Gudako Bot is a discord bot that allows for simulating gacha pulls in Discord text chat. It's currently on hold.</li>
+                    <li>Written in Python using <a href="https://github.com/Rapptz/discord.py">discord.py<a> originally maintained by <a href="https://github.com/Rapptz">Rapptz</a></li>
+                </ul>
         </main>
         <footer>
             <p>Contact Me: cjchesnutcontact@gmail.com</p>
         </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
